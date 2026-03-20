@@ -9,3 +9,12 @@ out
 
 # APM dependencies
 apm_modules/
+
+# APM auto-integrates skills into multiple agent runtimes.
+# This project uses .github/skills only — ignore the rest.
+.agents/
+.claude/
+.codex/
+.cursor/
+.opencode/
+.junie/
