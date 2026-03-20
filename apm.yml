@@ -1,0 +1,12 @@
+name: remotion-videos
+version: 1.0.0
+description: APM project for remotion-videos
+author: danielmeppiel
+dependencies:
+  apm:
+  - remotion-dev/skills/skills/remotion
+  - elevenlabs/skills/sound-effects
+  - inference-sh/skills/tools/audio/elevenlabs-sound-effects
+  - inference-sh/skills/tools/audio/elevenlabs-music
+  mcp: []
+scripts: {}

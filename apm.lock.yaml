@@ -1,0 +1,42 @@
+lockfile_version: '1'
+generated_at: '2026-03-19T20:44:57.956601+00:00'
+apm_version: 0.8.2
+dependencies:
+- repo_url: elevenlabs/skills
+  host: github.com
+  resolved_commit: 39b6cd7f2f5067c4902d67182e641e7b67a714fb
+  virtual_path: sound-effects
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/sound-effects
+  - .cursor/skills/sound-effects
+  - .github/skills/sound-effects
+- repo_url: inference-sh/skills
+  host: github.com
+  resolved_commit: 855aeea275dfc438cd1528c808eb652abaded2ed
+  virtual_path: tools/audio/elevenlabs-sound-effects
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/elevenlabs-sound-effects
+  - .cursor/skills/elevenlabs-sound-effects
+  - .github/skills/elevenlabs-sound-effects
+- repo_url: inference-sh/skills
+  host: github.com
+  resolved_commit: 855aeea275dfc438cd1528c808eb652abaded2ed
+  virtual_path: tools/audio/elevenlabs-music
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/elevenlabs-music
+  - .cursor/skills/elevenlabs-music
+  - .github/skills/elevenlabs-music
+- repo_url: remotion-dev/skills
+  host: github.com
+  resolved_commit: d5d395582c6227249cec74f53ab79aca77a4ff16
+  virtual_path: skills/remotion
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .github/skills/remotion
